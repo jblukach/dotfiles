@@ -1,3 +1,28 @@
 # dotfiles
 
-https://docs.aws.amazon.com/cli/latest/userguide/sso-configure-profile-token.html#sso-configure-profile-token-auto-sso
+### Validate AWS CLI Installation
+
+```
+aws --version
+```
+
+### Login to AWS IAM Identity Center
+
+```
+aws configure sso
+```
+
+### Validate AWS CDK Installation
+
+
+```
+cdk version
+```
+
+### CDK NAG Suppressions
+
+```
+python3 /tmp/nag.py
+```
+
+https://constructs.dev/packages/cdk-nag/v/2.28.137?lang=python

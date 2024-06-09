@@ -3,7 +3,8 @@
 curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 unzip awscliv2.zip
 sudo ./aws/install
-aws --version
 
 npm install -g aws-cdk
-cdk version
+
+chmod 750 /workspaces/.codespaces/.persistedshare/dotfiles/nag.py
+ln -s /workspaces/.codespaces/.persistedshare/dotfiles/nag.py /tmp/nag.py
