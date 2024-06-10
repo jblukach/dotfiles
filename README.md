@@ -22,7 +22,7 @@ cdk version
 ### CDK NAG Suppressions
 
 ```
-python3 /tmp/nag.py
+python3 /workspaces/nag.py
 ```
 
 https://constructs.dev/packages/cdk-nag/v/2.28.137?lang=python
