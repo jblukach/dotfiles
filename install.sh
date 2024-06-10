@@ -7,4 +7,4 @@ sudo ./aws/install
 npm install -g aws-cdk
 
 chmod 750 /workspaces/.codespaces/.persistedshare/dotfiles/nag.py
-ln -s /workspaces/.codespaces/.persistedshare/dotfiles/nag.py /tmp/nag.py
+ln -s /workspaces/.codespaces/.persistedshare/dotfiles/nag.py /workspaces/nag.py
