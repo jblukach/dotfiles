@@ -9,7 +9,7 @@ aws --version
 ### Login to AWS IAM Identity Center
 
 ```
-aws configure sso
+aws configure sso --use-device-code
 ```
 
 ### Validate AWS CDK Installation
