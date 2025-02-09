@@ -8,3 +8,6 @@ npm install -g aws-cdk
 
 chmod 750 /workspaces/.codespaces/.persistedshare/dotfiles/nag.py
 ln -s /workspaces/.codespaces/.persistedshare/dotfiles/nag.py /workspaces/nag.py
+
+curl https://sh.rustup.rs -sSf | sh -s -- -y
+source "$HOME/.cargo/env"

@@ -26,3 +26,15 @@ python3 /workspaces/nag.py
 ```
 
 https://constructs.dev/packages/cdk-nag/v/2.28.137?lang=python
+
+### Validate Rust Installation
+
+```
+rustc --version
+```
+
+### Validate Cargo Installation
+
+```
+cargo --version
+```
