@@ -17,6 +17,7 @@ aws configure sso --use-device-code
 
 ```
 cdk version
+npm list -g aws-cdk-lib
 ```
 
 ### CDK NAG Suppressions
