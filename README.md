@@ -20,14 +20,6 @@ cdk version
 npm list -g aws-cdk-lib
 ```
 
-### CDK NAG Suppressions
-
-```
-python3 /workspaces/nag.py
-```
-
-https://constructs.dev/packages/cdk-nag/v/2.28.137?lang=python
-
 ### Validate Rust Installation
 
 ```
